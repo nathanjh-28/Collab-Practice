@@ -7,8 +7,8 @@ mongoose.connect(connectionString, {
     useUnifiedTopology: true,
     useFindAndModify: false,
 })
-    .then(() => console.log('MongoDB connected successfully'))
-    .catch((err) => console.log(`MongoDB connection error: ${err}`));
+  .then(() => console.log('MongoDB connected successfully'))
+  .catch((err) => console.log(`MongoDB connection error: ${err}`));
 
 
 // Make All Models Available
