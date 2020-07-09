@@ -44,8 +44,8 @@ app.get('/', (req,res) => {
 });
 
 // 12. Route to your Routers using the variables from the top
-app.use('/authors', authorCtrl);
-app.use('/articles', articleCtrl);
+// app.use('/authors', authorCtrl);
+// app.use('/articles', articleCtrl);
 
 // 13.  404 Error, for all other routes, serve up a 404 error
 app.get('*', (req,res)=>{
