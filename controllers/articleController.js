@@ -4,19 +4,9 @@ const router = express.Router();
 // Database
 // const db = require('../models');
 
+
 // Articles Index
 router.get('/', (req, res) => {
-<<<<<<< HEAD
-  db.Article.find({}, (err, allArticles) => {
-    if (err) return console.log(err);
-
-    console.log(allArticles);
-
-    res.render('articles/index', {
-      articles: allArticles,
-    });
-  });
-=======
 //   db.Article.find({}, (err, allArticles) => {
 //     if (err) return console.log(err);
 
@@ -28,7 +18,6 @@ router.get('/', (req, res) => {
 //   });
 res.render('articles/index');
 
->>>>>>> b55bfb9d63d8a573f76cd11062a7a30a1f46ac12
 });
 
 // Articles New

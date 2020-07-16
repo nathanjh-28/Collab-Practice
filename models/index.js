@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const connectionString = 'mongodb://localhost:27017/express-blog-collab';
+const connectionString = 'mongodb://localhost:27017/express-blog-12';
 
 mongoose.connect(connectionString, {
     useNewUrlParser: true,
